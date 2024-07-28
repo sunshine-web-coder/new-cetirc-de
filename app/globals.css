@@ -1,0 +1,98 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* group utilities  */
+@layer base {
+  body {
+    @apply xl:text-[20px] lg:text-[18px] text-[14px] font-poppins font-normal leading-[1.6];
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+    @apply text-black font-bold leading-[1.2];
+  }
+}
+
+html,body{
+  scroll-behavior: smooth;
+}
+
+.container {
+  @apply mx-auto 2xl:max-w-[1280px] xl:max-w-[1170px] lg:max-w-[960px] md:max-w-[720px] sm:max-w-[540px] px-4;
+}
+
+.bordered-btn {
+  @apply xl:text-[20px] text-[12px] text-center text-[#0D0D0D] border border-[#1C1C1C] inline-block bg-transparent rounded-[8px] xl:py-[14px] py-[10px] xl:px-[45px] px-[35px] transition-all duration-300 hover:bg-[#2C2825] hover:text-white;
+}
+
+.primary-btn {
+  @apply xl:text-[20px] text-[12px] text-center text-white border border-[#1C1C1C] inline-block bg-[#2C2825] rounded-[8px] xl:py-[14px] py-[10px] xl:px-[45px] px-[35px] transition-all duration-300 hover:bg-transparent hover:text-[#0D0D0D];
+}
+
+.main-title {
+  @apply xl:text-[60px] lg:text-[42px] text-[36px] leading-[1.2];
+}
+
+.subtitle {
+  @apply bg-[#EFFCD2] inline-flex items-center py-[8px] px-[24px] gap-3 rounded-full mb-[10px];
+}
+
+.subtitle span {
+  @apply h-[7px] w-[7px] bg-[#96CF30] rounded-full block;
+}
+
+.subtitle p {
+  @apply font-medium md:text-[16px] text-[12px];
+}
+
+.section-title {
+  @apply 2xl:text-[48px] text-[36px] leading-[1.2];
+}
+
+.offcanvas.active {
+  left: 0;
+}
+
+.header-menu .menu-link {
+  @apply relative z-10 px-[15px] py-[8px];
+}
+
+.header-menu .menu-link:before {
+  @apply absolute left-0 bottom-0 h-[2px] w-0 content-[''] bg-[#96CF30] opacity-0 invisible transition-all duration-300 hover:w-full hover:opacity-100 hover:visible;
+}
+
+@media (max-width: 768px) {
+  .product-area {
+    background-image: none!important;
+  }
+  .alice-multi-column {
+    background-image: none!important;
+  }
+  .cta-area {
+    background-image: none!important;
+  }
+}
+
+@media screen and (min-width: 767px) {
+  .scrollbar-hide {
+    -ms-overflow-style: none;/* IE and Edge */
+    scrollbar-width: none;/* Firefox */
+  }
+
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+.linkStyle {
+  color: slateblue;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
