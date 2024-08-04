@@ -53,7 +53,7 @@ export default function HowItWorks() {
               <Link href="/loslegen" className="primary-btn">
                 Loslegen
               </Link>
-              <Link href="/" className="bordered-btn">
+              <Link href="/Cetric.apk" className="bordered-btn">
                 App herunterladen
               </Link>
             </motion.div>
