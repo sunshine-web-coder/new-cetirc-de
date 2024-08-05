@@ -35,7 +35,7 @@ export default function Footer() {
                             </ul>
                             <ul className='flex lg:hidden md:gap-[23px] gap-[15px]'>
                                 <li><Link className='md:h-[43px] h-[30px] md:w-[43px] w-[30px] border border-[#B3B3B3] rounded-full flex items-center justify-center transition-all duration-300 hover:bg-black hover:text-white hover:border-black' href='https://x.com/cetirc_?s=21' target='_blank'><FaTwitter /></Link></li>
-                                <li><Link className='md:h-[43px] h-[30px] md:w-[43px] w-[30px] border border-[#B3B3B3] rounded-full flex items-center justify-center transition-all duration-300 hover:bg-black hover:text-white hover:border-black' href='/' target='_blank'><FaLinkedin /></Link></li>
+                                <li><Link className='md:h-[43px] h-[30px] md:w-[43px] w-[30px] border border-[#B3B3B3] rounded-full flex items-center justify-center transition-all duration-300 hover:bg-black hover:text-white hover:border-black' href='https://www.linkedin.com/company/cetirc/' target='_blank'><FaLinkedin /></Link></li>
                                 <li><Link className='md:h-[43px] h-[30px] md:w-[43px] w-[30px] border border-[#B3B3B3] rounded-full flex items-center justify-center transition-all duration-300 hover:bg-black hover:text-white hover:border-black' href='https://www.instagram.com/cetirc?igsh=d2Z0ejl4Z2ZvajNx&utm_source=qr' target='_blank'><RiInstagramFill /></Link></li>
                             </ul>
                         </div>
@@ -54,7 +54,7 @@ export default function Footer() {
                             <h4 className='sm:text-[20px] whitespace-nowrap text-[18px] font-medium sm:mb-[25px] mb-[15px] text-center'>Folgen Sie uns</h4>
                             <ul className='flex md:gap-[23px] gap-[15px]'>
                                 <li><Link className='h-[43px] w-[43px] border border-[#B3B3B3] rounded-full flex items-center justify-center transition-all duration-300 hover:bg-black hover:text-white hover:border-black' href='https://x.com/cetirc_?s=21' target='_blank'><FaTwitter /></Link></li>
-                                <li><Link className='h-[43px] w-[43px] border border-[#B3B3B3] rounded-full flex items-center justify-center transition-all duration-300 hover:bg-black hover:text-white hover:border-black' href='/' target='_blank'><FaLinkedin /></Link></li>
+                                <li><Link className='h-[43px] w-[43px] border border-[#B3B3B3] rounded-full flex items-center justify-center transition-all duration-300 hover:bg-black hover:text-white hover:border-black' href='https://www.linkedin.com/company/cetirc/' target='_blank'><FaLinkedin /></Link></li>
                                 <li><Link className='h-[43px] w-[43px] border border-[#B3B3B3] rounded-full flex items-center justify-center transition-all duration-300 hover:bg-black hover:text-white hover:border-black' href='https://www.instagram.com/cetirc?igsh=d2Z0ejl4Z2ZvajNx&utm_source=qr' target='_blank'><RiInstagramFill /></Link></li>
                             </ul>
                         </div>
