@@ -43,7 +43,7 @@ export default function Header() {
       <div
         className={`${
           isActive ? 'left-0' : '-left-[100vw]'
-        } fixed top-0 h-full w-[100vw] bg-black z-[9999999999999] opacity-50 transition-[opacity] transition-all duration-500`}
+        } fixed top-0 h-full w-[100vw] bg-black z-[9999999999999] opacity-50 transition-all duration-500`}
         onClick={handleClose}
       ></div>
       <header
