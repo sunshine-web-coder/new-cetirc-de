@@ -77,25 +77,25 @@ export default function AliceMultiColumn() {
             <motion.div variants={fadeInUp}>
               <h2 className="2xl:text-[48px] lg:text-[36px] text-[26px] font-normal mb-[30px]">Nahtlose Zugangskontrolle mit Alice 2</h2>
               <ul className="flex flex-col md:gap-[30px] gap-[15px] lg:w-[90%] w-full">
-                <motion.li className="flex lg:gap-[15px] gap-[10px] md:text-[20px] text-[14px] bg-[#F6FCEA] border border-[#A9ED12] md:rounded-[20px] rounded-[15px] py-[20px] px-[15px] mr-[50px]" variants={fadeInUp}>
+                <motion.li className="flex lg:gap-[15px] gap-[10px] md:text-[20px] text-[14px] bg-[#CAF7CE] border border-[#A9ED12] md:rounded-[20px] rounded-[15px] py-[20px] px-[15px] mr-[50px]" variants={fadeInUp}>
                   <span className="text-[#424242] text-[16px] mt-[5px]">
                     <IoMdCheckmarkCircle />
                   </span>
                   Mit Alice 2 können Sie problemlos durch jeden eingeschränkten Bereich, Eingang, Ressource oder Informationen gelangen.
                 </motion.li>
-                <motion.li className="flex lg:gap-[15px] gap-[10px] md:text-[20px] text-[14px] bg-[#F6FCEA] border border-[#A9ED12] md:rounded-[20px] rounded-[15px] py-[20px] px-[15px] ml-[50px]" variants={fadeInUp}>
+                <motion.li className="flex lg:gap-[15px] gap-[10px] md:text-[20px] text-[14px] bg-[#CAF7CE] border border-[#A9ED12] md:rounded-[20px] rounded-[15px] py-[20px] px-[15px] ml-[50px]" variants={fadeInUp}>
                   <span className="text-[#424242] text-[16px] mt-[5px]">
                     <IoMdCheckmarkCircle />
                   </span>
                   Es ist schnell, flexibel und sicher: Sie autorisieren den Zugang nur mit Ihrer Handfläche.
                 </motion.li>
-                <motion.li className="flex lg:gap-[15px] gap-[10px] md:text-[20px] text-[14px] bg-[#F6FCEA] border border-[#A9ED12] md:rounded-[20px] rounded-[15px] py-[20px] px-[15px] mr-[50px]" variants={fadeInUp}>
+                <motion.li className="flex lg:gap-[15px] gap-[10px] md:text-[20px] text-[14px] bg-[#CAF7CE] border border-[#A9ED12] md:rounded-[20px] rounded-[15px] py-[20px] px-[15px] mr-[50px]" variants={fadeInUp}>
                   <span className="text-[#424242] text-[16px] mt-[5px]">
                     <IoMdCheckmarkCircle />
                   </span>
                   Jeder hat eine einzigartige Identität, was zusätzliche Zuverlässigkeit und Sicherheit gewährleistet.
                 </motion.li>
-                <motion.li className="flex lg:gap-[15px] gap-[10px] md:text-[20px] text-[14px] bg-[#F6FCEA] border border-[#A9ED12] md:rounded-[20px] rounded-[15px] py-[20px] px-[15px] ml-[50px]" variants={fadeInUp}>
+                <motion.li className="flex lg:gap-[15px] gap-[10px] md:text-[20px] text-[14px] bg-[#CAF7CE] border border-[#A9ED12] md:rounded-[20px] rounded-[15px] py-[20px] px-[15px] ml-[50px]" variants={fadeInUp}>
                   <span className="text-[#424242] text-[16px] mt-[5px]">
                     <IoMdCheckmarkCircle />
                   </span>

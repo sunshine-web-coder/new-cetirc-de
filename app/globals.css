@@ -37,7 +37,7 @@ html,body{
 }
 
 .subtitle {
-  @apply bg-[#EFFCD2] inline-flex items-center py-[8px] px-[24px] gap-3 rounded-full mb-[10px];
+  @apply bg-[#C5F1C9] inline-flex items-center py-[8px] px-[24px] gap-3 rounded-full mb-[10px];
 }
 
 .subtitle span {

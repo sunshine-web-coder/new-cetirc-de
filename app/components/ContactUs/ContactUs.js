@@ -80,7 +80,7 @@ export default function ContactUs() {
 
   return (
     <>
-      <section ref={ref} className="md:bg-[#F6FCEA] md:py-[100px] mt-[80px]">
+      <section ref={ref} className="bg-[#CAF7CE] py-[50px] md:py-[100px] mt-[80px]">
         <div className="container">
           <motion.div className="grid md:grid-cols-2 xl:gap-[180px] lg:gap-[100px] gap-[50px]" variants={stagger} initial="hidden" animate={controls}>
             <motion.div className="md:text-left text-center" variants={fadeInUp}>
@@ -98,7 +98,7 @@ export default function ContactUs() {
             </motion.div>
             <motion.div variants={fadeInUp}>
               <form ref={formRef} onSubmit={handleSubmit} className="contact_form grid gap-[20px]">
-                {message && <div className="text-green-500 text-base border border-[#EFFCD2] p-2 px-4 rounded-md text-center bg-[#EFFCD2]">{message}</div>}
+                {message && <div className="text-green-500 text-base border border-[#C5F1C9] p-2 px-4 rounded-md text-center bg-[#C5F1C9]">{message}</div>}
                 {error && <div className="text-red-500 text-base border border-[#FFE2E5] p-2 px-4 rounded-md text-center bg-[#FFE2E5]">{error}</div>}
                 <div className="grid grid-cols-2 md:gap-[20px] gap-[10px]">
                   <div className="form-group">

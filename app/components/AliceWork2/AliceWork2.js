@@ -5,7 +5,7 @@ import AliceWorkIcon1 from '@/app/assets/images/alice-work-icon1.svg';
 export default function AliceWork1() {
   return (
     <>
-      <section className='md:pt-[140px] md:bg-[#F6FCEA] relative z-10 before:absolute before:bottom-0 before:left-0 before:h-[180px] before:w-full before:content-[""] before:bg-white before:-z-10'>
+      <section className='md:pt-[140px] md:bg-[#CAF7CE] relative z-10 before:absolute before:bottom-0 before:left-0 before:h-[180px] before:w-full before:content-[""] before:bg-white before:-z-10'>
         <div className="container">
           <div className="flex items-center flex-col md:mb-[50px] mb-[30px] text-center">
             <h2 className="section-title md:mb-[20px] mb-[10px]">

@@ -4,7 +4,7 @@ import Link from 'next/link';
 export default function GetInTouch() {
   return (
     <>
-      <section id="contact-us" className="xl:pt-[90px] bg-[#FBFFF4] lg:mt-[220px] md:mt-[120px] xl:py-0 md:py-[80px] py-[60px] md:mb-[140px]">
+      <section id="contact-us" className="xl:pt-[90px] bg-[#CAF7CE] lg:mt-[220px] md:mt-[120px] xl:py-0 md:py-[80px] py-[60px] md:mb-[140px]">
         <div className="container">
           <div className="grid lg:grid-cols-[5fr_7fr] xl:gap-x-[150px] lg:gap-[50px] gap-[30px] xl:items-start items-center">
             <div className="flex flex-col mb-[50px] lg:text-left text-center">

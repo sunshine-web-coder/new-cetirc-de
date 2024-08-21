@@ -24,7 +24,7 @@ export default function AliceWork1() {
             <div className="relative">
               {/* single work item */}
               <div className='flex gap-x-[18px] relative lg:pb-[50px] pb-[30px] before:w-[2px] before:absolute before:h-[calc(100%-50px)] before:content-[unset] before:lg:content-[""] before:border-l-2 before:border-dashed before:top-[40px] before:left-[14px]'>
-                <div className="lg:h-[30px] h-[20px] lg:w-[30px] w-[20px] lg:min-w-[30px] min-w-[20px] bg-[#E0FEA4] rounded-full"></div>
+                <div className="lg:h-[30px] h-[20px] lg:w-[30px] w-[20px] lg:min-w-[30px] min-w-[20px] bg-[#CAF7CE] rounded-full"></div>
                 <div>
                   <h4 className="text-[24px] md:mb-[15px] mb-[10px]">Registrierung:</h4>
                   <p className="text-[#646464] lg:text-[20px] text-[14px]">

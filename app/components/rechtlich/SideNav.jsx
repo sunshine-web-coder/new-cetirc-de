@@ -16,7 +16,7 @@ export default function SideNav() {
           key={index}
           className={`px-3 py-2.5 md:p-2.5 w-full border rounded-[10px_22px] shadow-sm whitespace-nowrap md:whitespace-normal text-sm 
             ${pathname === link.url
-              ? "text-[#222] font-bold border-[#E9FFBF] bg-[#E9FFBF]"
+              ? "text-[#222] font-bold border-[#CAF7CE] bg-[#CAF7CE]"
               : "text-[#222] border-[#f2f2f2]"
             }`}
         >
