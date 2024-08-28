@@ -66,8 +66,8 @@ export default function AliceMultiColumn() {
                 </motion.li>
               </ul>
             </motion.div>
-            <div className="md:ml-auto mt-[30px] md:mt-0">
-              <Image className="" src={MachineThumb} alt="Zahlungsmaschine" />
+            <div className="md:ml-auto flex items-center sm:items-start justify-center sm:justify-start mt-[30px] md:mt-0">
+              <Image className="w-[200px] sm:w-[300px]" width={5000} height={5000} src={MachineThumb} alt="Zahlungsmaschine" />
             </div>
           </motion.div>
           {/* zweite Spalte */}

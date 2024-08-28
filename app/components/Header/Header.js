@@ -6,7 +6,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { HiMiniBars3BottomRight } from 'react-icons/hi2';
 import { FaTimesCircle } from 'react-icons/fa';
-import HeaderLogo from '@/app/assets/images/logo.svg';
+import HeaderLogo from '@/app/assets/images/logo.png';
 import { IconContext } from 'react-icons';
 
 export default function Header() {
