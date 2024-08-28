@@ -3,7 +3,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import BannerLinesBg from '@/app/assets/images/banner-lines-bg.png';
 import ProductBannerThumb from '@/app/assets/images/product-banner-thumb.png';
-import ProductBannerThumbMobile from '@/app/assets/images/product-banner-thumb-mobile.png';
+import ProductBannerThumbMobile from "@/app/assets/images/product-banner-thumb-mobile-new.png";
 
 export default function GetStartedBanner() {
   return (

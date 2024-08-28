@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import Media2Thumb1 from '@/app/assets/images/media-thumb3.png';
+import Media2Thumb1 from '@/app/assets/images/media-thumb3-new.png';
 import Media2Thumb2 from '@/app/assets/images/media-thumb4.png';
 
 export default function MediaBox2() {
