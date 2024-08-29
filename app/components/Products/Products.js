@@ -56,7 +56,7 @@ export default function Products() {
                   Alice 1
                 </h1>
                 <p className="text-[#525050] mt-7 md:text-[20px] text-[14px]">
-                  Im Herzen von Cetirc steht Alice 1. Entwickelt, um Ihnen die Registrierung, das Scannen Ihrer Handfläche, das Online-Bezahlen und den lebenslangen Zugang zu all unseren Produkten und Angeboten zu ermöglichen. Laden Sie die Alice 1 App herunter, um zu beginnen.
+                  Im Zentrum von Cetirc steht Alice 1. Entwickelt, um Ihnen die Registrierung, das Scannen Ihrer Handfläche, das Online-Bezahlen und den lebenslangen Zugang zu all unseren Produkten und Angeboten zu ermöglichen. Laden Sie die Cetirc-App herunter, um zu beginnen.
                 </p>
               </motion.div>
               {/* single box  */}
@@ -65,7 +65,9 @@ export default function Products() {
                   <Image className="absolute lg:-left-[30px] -left-[5px] lg:-top-[40px] md:-top-[10px] -top-[15px] -z-10 lg:max-w-[50%] md:max-w-[25%] max-w-[60px]" src={ProductEggShape} alt="Eiform" />
                   Alice 2
                 </h1>
-                <p className="text-[#525050] md:text-[20px] mt-7 text-[14px]">Alice 2 ist unser Flaggschiff, ein universeller und sicherer Handvenen-Digitalzugangskontrollservice. Es ist Ihr Schlüssel, um jedes Zugangskontrollsystem mit unserer Handvenen-Authentifizierungstechnologie zu autorisieren.</p>
+                <p className="text-[#525050] md:text-[20px] mt-7 text-[14px]">
+                  Alice 2 ist unser Flaggschiff, ein universeller und sicherer Handvenen-Digitalzugangskontrollservice. Es ist Ihr Schlüssel, um jedes Zugangskontrollsystem mit unserer Handvenen-Authentifizierungstechnologie zu autorisieren.
+                </p>
               </motion.div>
             </div>
           </motion.div>

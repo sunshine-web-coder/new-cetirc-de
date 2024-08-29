@@ -37,7 +37,7 @@ export default function Banner() {
                 <span className="xl:text-[48px] lg:text-[36px] text-[26px] font-medium">Erleben Sie Spitzentechnologie</span> <br className="" />
                 Palm Vein <span className="font-normal">Identitätsdienst</span>
               </h1>
-              <p className="text-[#070707] max-w-[525px] md:mb-[30px] mb-[25px]">Einmal scannen und Sie können sich authentifizieren, Ihre Identität nachweisen, Zugangskontrolle erhalten und für immer einkaufen. Es ist KOSTENLOS, SCHNELL und EINFACH.</p>
+              <p className="text-[#070707] max-w-[525px] md:mb-[30px] mb-[25px]">Einmal scannen, und Sie können sich authentifizieren, Ihre Identität nachweisen, Zugang erhalten und für immer einkaufen. Es ist KOSTENLOS, SCHNELL und EINFACH.</p>
               <div className="flex xl:gap-8 gap-4">
                 <Link href="/loslegen" className="primary-btn">
                   Loslegen

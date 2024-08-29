@@ -62,7 +62,7 @@ export default function HowItWorks() {
             {/* single box  */}
             <motion.div className="bg-[#CAF7CE] md:py-[45px] py-[25px] md:px-[30px] px-[20px] xl:rounded-[43px] rounded-[20px] text-center" variants={fadeInUp}>
               <Image className="xl:mb-[10px] mb-[5px] mx-auto md:max-w-[105px] max-w-[60px]" src={WorksIcon1} alt="Wie es funktioniert Icon1" />
-              <h3 className="xl:text-[30px] sm:text-[24px] text-[20px] font-normal mb-[15px] leading-[1.3]">Laden Sie die Alice 1 App kostenlos herunter:</h3>
+              <h3 className="xl:text-[30px] sm:text-[24px] text-[20px] font-normal mb-[15px] leading-[1.3]">Laden Sie die Cetirc-App kostenlos herunter:</h3>
               <p className="text-[#121212] sm:text-[16px] text-[14px]">Laden Sie die App herunter und registrieren Sie sich mit Alice 1, um ein Online-Profil und eine ID für alle Cetirc-Handvenen- und Biometrieprodukte und -partner zu erstellen. Dies schließt Alice 2 ein.</p>
             </motion.div>
             {/* single box  */}

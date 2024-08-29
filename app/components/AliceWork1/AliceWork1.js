@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-import AliceWorkThumb1 from '@/app/assets/images/alice1work-thumb.png';
+import AliceWorkThumb1 from '@/app/assets/images/alice1work-thumb-new.png';
 import AliceWorkThumbMobile from '@/app/assets/images/alice1work-thumb-mobile.png';
 
 export default function AliceWork1() {
@@ -17,8 +17,8 @@ export default function AliceWork1() {
             </p>
           </div>
           <div className="grid sm:grid-cols-[4fr_8fr] lg:gap-x-[60px] gap-x-[30px]">
-            <div className="mb-[30px]">
-              <Image className="w-full" src={AliceWorkThumb1} alt="AliceWorkThumb1" />
+            <div className="mb-[30px] flex items-center justify-center bg-[#333333] rounded-[15px] overflow-hidden">
+              <Image className="w-[300px]" src={AliceWorkThumb1} alt="AliceWorkThumb1" />
             </div>
             <div className="relative">
               {/* single work item  */}
