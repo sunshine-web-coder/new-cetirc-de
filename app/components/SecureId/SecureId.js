@@ -40,10 +40,13 @@ export default function SecureId() {
           <motion.div className="grid md:grid-cols-2 grid-cols-1 xl:gap-[150px] gap-[40px] items-center" variants={stagger} initial="hidden" animate={controls}>
             <motion.div className="md:order-2 md:text-left text-center" variants={fadeInUp}>
               <h2 className="section-title md:mb-[15px] mb-[8px]">
-                <span className="font-normal">Sichere ID, nur</span> <br /> Ihre Handfläche
+                <span className="font-normal">Zugriff gewähren, Teilen</span> <br />
+                Mit anderen
               </h2>
-              <p className="md:mb-[30px] mb-[20px]">Die Handvenen-ID-Dienste Alice 1 und Alice 2 von Cetirc bieten eine einzigartige, bequemere und sichere Möglichkeit, Transaktionen und Aktivitäten zu authentifizieren, die Ihre Biometrie online und offline erfordern.</p>
-              <Link href="/loslegen" className="primary-btn">
+              <p className="md:mb-[30px] mb-[20px]">
+                Ermöglichen Sie vertrauenswürdigen Gästen, Freunden und Familienmitgliedern, mit Ihrer Alice 1-verknüpften Kredit- oder Debitkarte zu bezahlen oder mit Alice 2 Zugangskontrollen zu erhalten. Es ist sicher und einfach; Sie haben die Kontrolle darüber, wie Dritte Ihre Karte verwenden.
+              </p>
+              <Link href="/getstarted" className="primary-btn">
                 Sehen Sie, wie es funktioniert
               </Link>
             </motion.div>

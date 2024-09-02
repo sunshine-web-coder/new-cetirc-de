@@ -34,7 +34,7 @@ export default function AliceWork1() {
             {/* single box */}
             <div className="bg-white py-[30px] px-[20px] rounded-[23px] shadow-[0_30px_60px_rgba(0,0,0,0.05)] md:text-left text-center lg:mt-[90px]">
               <Image className="mb-[10px] xl:max-w-[90px] max-w-[60px] md:mx-0 mx-auto" src={AliceWorkIcon1} alt="Alice Work Icon1" />
-              <h3 className="xl:text-[30px] lg:text-[24px] text-[20px] font-medium xl:mb-[15px] mb-[10px] leading-[1.3]">Integration</h3>
+              <h3 className="xl:text-[30px] lg:text-[24px] text-[20px] font-medium xl:mb-[15px] mb-[10px] leading-[1.3]">B2B-Integration</h3>
               <p className="xl:text-[20px] text-[14px]">Durch die Einführung und Integration von Alice 2 können kleine und große Unternehmen, Firmen und Organisationen ihre bestehenden Sicherheitssysteme und -protokolle verbessern und skalieren.</p>
             </div>
           </div>
