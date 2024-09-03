@@ -35,7 +35,7 @@ export default function AliceWork1() {
             <div className="bg-white py-[30px] px-[20px] rounded-[23px] shadow-[0_30px_60px_rgba(0,0,0,0.05)] md:text-left text-center lg:mt-[90px]">
               <Image className="mb-[10px] xl:max-w-[90px] max-w-[60px] md:mx-0 mx-auto" src={AliceWorkIcon1} alt="Alice Work Icon1" />
               <h3 className="xl:text-[30px] lg:text-[24px] text-[20px] font-medium xl:mb-[15px] mb-[10px] leading-[1.3]">B2B-Integration</h3>
-              <p className="xl:text-[20px] text-[14px]">Durch die Einführung und Integration von Alice 2 können kleine und große Unternehmen, Firmen und Organisationen ihre bestehenden Sicherheitssysteme und -protokolle verbessern und skalieren.</p>
+              <p className="xl:text-[20px] text-[14px]">Egal, ob Sie ein kleines Unternehmen sind, das Ihre Sicherheitsprotokolle aktualisieren möchte, oder eine große Organisation, die Ihre Zutrittskontrollsysteme verstärken muss, Alice 2 bietet eine bessere, zuverlässigere Lösung, die umfassenden Schutz und Sicherheit gewährleistet. Alice 2 ist einfach zu installieren und verfügt über fortschrittliche Zugangskontrollsysteme zur Überwachung und zum Schutz sensibler Daten und kritischer Ressourcen in der heutigen sich entwickelnden Technologielandschaft.</p>
             </div>
           </div>
         </div>
