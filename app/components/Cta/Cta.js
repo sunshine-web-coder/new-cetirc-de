@@ -20,7 +20,7 @@ export default function Cta() {
               <Link href="/getstarted" className="primary-btn">
                 Loslegen
               </Link>
-              <Link href="/Cetric.apk" className="bordered-btn">
+              <Link href="/Cetirc.apk" className="bordered-btn">
                 App herunterladen
               </Link>
             </div>
