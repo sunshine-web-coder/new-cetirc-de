@@ -21,7 +21,7 @@ export default function Footer() {
               <h4 className="font-medium sm:text-[24px] text-[16px] leading-[1.4] lg:mb-[40px] mb-[20px] max-w-[500px] lg:max-w-[auto]">Beginnen Sie Ihre Reise mit sicherer Authentifizierung</h4>
               <div className="flex items-center gap-[20px]">
                 {/* <Link href="/loslegen" className="primary-btn hidden !py-[10px] !px-[35px] !rounded-[8px]">Loslegen</Link> */}
-                <Link href="/Cetirc.apk" className="bordered-btn !py-[10px] !px-[35px] !rounded-[8px]">
+                <Link href="https://cetircstorage.s3.eu-north-1.amazonaws.com/Cetirc+(1).apk" className="bordered-btn !py-[10px] !px-[35px] !rounded-[8px]">
                   App herunterladen
                 </Link>
               </div>

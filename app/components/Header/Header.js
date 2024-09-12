@@ -74,7 +74,7 @@ export default function Header() {
           </ul>
           <ul className="ml-auto space-x-[30px] lg:flex items-center">
             <li className="hidden lg:block">
-              <Link className="bordered-btn" href="/Cetirc.apk">
+              <Link className="bordered-btn" href="https://cetircstorage.s3.eu-north-1.amazonaws.com/Cetirc+(1).apk">
                 App herunterladen
               </Link>
             </li>
@@ -123,7 +123,7 @@ export default function Header() {
         </ul>
         <ul className="mt-5">
           <li>
-            <Link href="/Cetirc.apk" className="bordered-btn !py-[12px] !px-[25px] !text-[16px]">
+            <Link href="https://cetircstorage.s3.eu-north-1.amazonaws.com/Cetirc+(1).apk" className="bordered-btn !py-[12px] !px-[25px] !text-[16px]">
               App herunterladen
             </Link>
           </li>
