@@ -74,7 +74,7 @@ export default function Header() {
           </ul>
           <ul className="ml-auto space-x-[30px] lg:flex items-center">
             <li className="hidden lg:block">
-              <Link className="bordered-btn" href="/">
+              <Link className="bordered-btn" href="https://cetircstorage.s3.eu-north-1.amazonaws.com/Cetirc+-+Card+Dropdown+Removed.apk">
                 Download app
               </Link>
             </li>

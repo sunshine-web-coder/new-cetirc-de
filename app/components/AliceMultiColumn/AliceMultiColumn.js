@@ -5,7 +5,7 @@ import Image from 'next/image';
 import { motion, useAnimation } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import backgroundShape from '@/app/assets/images/product-bg.png';
-import MachineThumb from '@/app/assets/images/payment-machine.png';
+import MachineThumb from '@/app/assets/images/new-payment-machine.png';
 import MachineThumbMobile from '@/app/assets/images/payment-machine-mobile.png';
 import SecurityThumb from '@/app/assets/images/secure-thumb2.png';
 
@@ -67,7 +67,7 @@ export default function AliceMultiColumn() {
               </ul>
             </motion.div>
             <div className="md:ml-auto flex items-center sm:items-start justify-center sm:justify-start mt-[30px] md:mt-0">
-              <Image className="w-[200px] sm:w-[300px]" width={5000} height={5000} src={MachineThumb} alt="Zahlungsmaschine" />
+              <Image className="w-[200px] sm:w-[350px]" width={5000} height={5000} src={MachineThumb} alt="Zahlungsmaschine" />
             </div>
           </motion.div>
           {/* zweite Spalte */}
