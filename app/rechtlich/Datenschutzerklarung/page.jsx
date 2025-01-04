@@ -35,7 +35,7 @@ export default function PrivacyPolicy() {
               <li>
                 Informationen, die Sie über Cetirc-Dienste bereitstellen, z.B. wenn Sie ein Konto erstellen, mit unseren Diensten interagieren oder den Kunden{' '}
                 <a href="mailto:support@cetirc.com" className="linkStyle">
-                  support {' '}
+                  support{' '}
                 </a>
                 kontaktieren.
               </li>
@@ -57,6 +57,32 @@ export default function PrivacyPolicy() {
               <li>Aktualisierte Liefer- und Adressinformationen von unseren Zustellern.</li>
               <li>Informationen von Drittanbietern, Partnern und Händlerdiensten, die unsere Dienste verbessern.</li>
             </ul>
+          </div>
+          <div className="mt-6">
+            <span>1.4. Sammlung und Nutzung von Standortdaten</span>
+            <p>Unsere App sammelt Ihre Standortdaten, um Ihre Erfahrung zu verbessern und Ihnen personalisierte Dienstleistungen anzubieten. Insbesondere verwenden wir Ihre Standortinformationen für folgende Zwecke:</p>
+            <ul className="list-disc ml-6">
+              <li>
+                <b>Anzeigen der nächsten Geschäfte:</b> Wir erfassen Ihre genauen Standortdaten, um die nächstgelegenen Geschäfte anzuzeigen, in denen unsere Produkte verfügbar sind, und so Komfort und eine bessere Nutzererfahrung zu gewährleisten.
+              </li>
+              <p className="mb-1 mt-1">
+                <b>Wie Standortdaten erfasst werden:</b>
+              </p>
+              <li>Wir erfassen diese Daten über das GPS Ihres Geräts oder andere Standortdienste.</li>
+
+              <p className="mb-1">
+                <b>Wie Standortdaten verwendet werden:</b>
+              </p>
+              <li>Die Standortdaten werden ausschließlich verwendet, um nahegelegene Geschäfte anzuzeigen und die Funktionalität der App zu verbessern.</li>
+              <li>Die Daten werden nicht an Dritte für Werbe- oder Marketingzwecke weitergegeben.</li>
+              <p className="mb-1">
+                <b>Benutzerkontrolle:</b>
+              </p>
+              <li>Sie können die Standortberechtigungen jederzeit über die Einstellungen Ihres Geräts verwalten oder widerrufen.</li>
+              <li>Wenn Sie die Standortdienste deaktivieren, können Sie die App weiterhin verwenden, aber bestimmte Funktionen, wie das Auffinden nahegelegener Geschäfte, funktionieren möglicherweise nicht ordnungsgemäß.</li>
+            </ul>
+            <p className="mb-1 mt-2">Geschäftskunden</p>
+            <span>Für Geschäftskunden wird die Adresse, die Sie bei der Registrierung eingeben, gespeichert und verwendet, um anderen Kunden die Suche nach Ihrem Geschäft zu ermöglichen.</span>
           </div>
         </div>
 
@@ -169,7 +195,6 @@ export default function PrivacyPolicy() {
             . Wir werden unser Bestes tun, um Ihre Anliegen so schnell wie möglich zu bearbeiten und zu lösen.
           </p>
         </div>
-
       </div>
     </div>
   );
